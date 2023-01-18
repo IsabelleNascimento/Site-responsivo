@@ -1,0 +1,51 @@
+footer{
+    background-image: url(../img/map-image.png);
+    background-color: var(--preto-claro);
+    font-family: var(--font-principal);
+    text-align: center;
+}
+    .titulo-footer{
+        font-family: var(--font-principal);
+        text-transform: uppercase;
+        font-weight: 900;
+        padding: 1em;
+        color: var(--branco);
+    }
+.sub-footer{
+    font-family: var(--font-principal);
+    color: var(--cinza-fundo);
+    padding: 1em;
+}
+.info-form {
+    padding: 1em;
+  
+}
+.questoes{
+    border: 3px solid;
+    border-radius: 10px;
+    font-family: var(--font-principal);
+}
+.btn-form{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: var(--font-principal);
+    border-radius: 5px;
+    color: var(--branco);
+    background-color: var(--amarelo);
+    padding: 10px 5px;
+    border: var(--branco);
+}
+.final{
+    font-family: var(--font-principal);
+    padding: 2em;
+    text-align: center;
+}
+.escrita-foot{
+    padding: 1em;
+}
+.img-foot{
+    padding: 0.5em;
+}
+.text-center{
+    padding: 0em 0em 2em 0em ;
+}

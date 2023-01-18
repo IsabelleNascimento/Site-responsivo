@@ -1,0 +1,25 @@
+@import url("style/header.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+ @import url('style/main.css'); 
+@import url('style/about.css');
+@import url('style/team.css');
+@import url('style/patrocinadores.css');
+@import url('style/footer.css');
+
+
+:root{
+    --branco:white;
+    --amarelo: #ffc800;
+    --preto-claro:#252526;
+    --marrom-claro:#BB9D83;
+    --azul-escuro:#192F3D;
+    --cinza-escuro:#2E2C2D;
+    --cinza-fundo:#dee2e6;
+ 
+    --font-principal: 'Montserrat', sans-serif;
+}
+
+body{
+    font-family: var(--font-principal);
+    
+}

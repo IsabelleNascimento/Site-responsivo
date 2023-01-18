@@ -1,0 +1,113 @@
+
+.container-principal{
+    background-image: url("../img/capa01.jpg");
+    padding-top: 10.5rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover
+ 
+}
+
+.titulo-principal{
+    text-transform: uppercase;
+    font-family: var(--font-principal);
+    font-weight: 700;
+    padding: 1em;
+    background-color: var(--azul-escuro);
+    display: flex;
+    display: inline-block;
+    align-items: flex-start;
+    
+}
+.sub-principal{
+    font-family: var(--font-principal);
+    font-weight: 500;
+    padding: 5px;
+    background-color: var(--marrom-claro);
+}
+.btn-principal{
+    font-family: var(--font-principal);
+    color: var(--branco);
+    text-transform: uppercase;
+    background-color: var(--amarelo);
+    font-weight: bold;
+    padding: 25px;
+    border-radius: 8px;
+    display: flex;
+    display: inline-block;
+    margin-top: 2em;
+    width: 10em;
+}
+.services{
+    text-align: center;
+    font-family: var(--font-principal);
+    padding: 3em;
+}
+.titulo-serve{
+    font-weight: bolder;
+    font-size: 3em;
+    color: var(--preto-claro);
+    margin: 1rem;
+}
+.sub-titulo{
+    font-weight: 400;
+    margin: 2rem;
+}
+.img-serve{
+    padding: 1em;
+    width: 6em;
+}
+.titulo-img{
+    font-weight: bolder;
+    color: var(--amarelo);
+    background-color: var(--preto-claro);
+    padding: 1em;
+    border-radius: 6px;
+}
+.sub-serve{
+    font-weight: 400;
+    padding: 1rem;
+}
+
+.portifolio{
+    text-align: center;
+    font-family: var(--font-principal);
+    padding: 3em;
+}
+
+.img-portifolio{
+    width: 80vw;
+}
+.titulo-img-portifolio{
+    font-weight: bolder;
+    padding: 1em;
+}
+
+.sub-titulo-portifolio{
+    font-weight: 400;
+    padding-bottom: 3em;
+}
+
+@media screen and (min-width:600px ) {
+    .container-principal{
+        display: block;
+        
+    }
+    .img-patrocinadores-logo{
+        width: 1vw;
+        padding: 1em;
+    }
+    
+}
+@media screen and (min-width: 992px ){
+    .img-portifolio{
+        width: 50vw;
+    }
+    .img-team{
+        width: 30vw;
+    }
+}

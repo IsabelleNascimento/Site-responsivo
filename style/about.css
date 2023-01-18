@@ -1,0 +1,31 @@
+.About{
+    text-align: center;
+    align-items: center;
+    font-family: var(--font-principal);
+    padding: 3em;
+    font-weight: 400;
+}
+.about-comentada{
+    text-align: center;
+    font-family: var(--font-principal);
+    padding: 3em;
+}
+
+.titulo-about{
+    font-weight: 700;
+    font-size: 2em;
+    color: var(--preto-claro);
+    margin: 1rem;
+}
+.sub-titulo-about{
+    font-weight: 400;
+    padding: 1em;
+}
+.img-about{
+    border-radius: 50px;
+    padding-bottom: 3em;
+}
+.btn-about{
+    text-align: center;
+    padding: 1em 0em 2em 0em;
+}

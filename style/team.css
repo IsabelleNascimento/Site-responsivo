@@ -1,0 +1,53 @@
+.team{
+    background-color: var(--cinza-fundo);
+}
+
+.titulo-team{
+    text-align: center;
+    font-family: var(--font-principal);
+    padding: 2em;
+    font-weight: bolder;
+}
+.sub-titulo-team{
+    text-align: center;
+    font-family: var(--font-principal);
+    padding: 2em;
+}
+.container-team-logo{
+    display: flex;
+    justify-content: center;
+}
+
+.img-team{
+    width: 40vw;
+    border-radius: 50%;
+    text-align: center;
+}
+.img-team-t{
+    display: flex;
+    justify-content: center;
+}
+.img-team-logo{
+    width: 2em;
+    padding: 0.5em;
+    padding-bottom: 1.5em;
+}
+
+.nome-team{
+    font-family: var(--font-principal);
+    font-weight: 700;
+    text-align: center;
+    padding: 1rem;
+}
+
+.sub-nome{
+    font-family: var(--font-principal);
+    font-weight: 300;
+    text-align: center;
+}
+.sub-nome-v{
+    font-family: var(--font-principal);
+    font-weight: 300;
+    text-align: center;
+    padding: 2em;
+}
